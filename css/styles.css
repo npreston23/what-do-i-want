@@ -1,0 +1,98 @@
+#decision{
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#text-overlay{
+  text-align: center;
+  bottom: 40%;
+  color: white;
+  text-shadow: 0px 0px 10px black;
+}
+
+.fork-and-knife{
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url("https://img.buzzfeed.com/buzzfeed-static/static/2015-02/11/17/enhanced/webdr07/anigif_original-23599-1423694368-11.gif");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#lo-mein-noodles{
+  text-align: center;
+  bottom: 40%;
+  color: black;
+  text-align: center;
+}
+
+#chile-verde-burrito{
+  text-align: center;
+  bottom: 40%;
+  color: black;
+  text-align: center;
+}
+
+#pasta{
+  text-align: center;
+  bottom: 40%;
+  color: black;
+  text-align: center;
+}
+
+#chicken{
+  text-align: center;
+  bottom: 40%;
+  color: black;
+  text-align: center;
+}
+
+
+.chicken-fingers{
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: none;
+}
+
+.chinese-food{
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: none;
+}
+
+.italiano{
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: none;
+}
+
+.mexican-food{
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: none;
+}

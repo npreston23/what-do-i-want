@@ -2,16 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
-    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/styles.css" type="text/css" media="all">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Calc u later</title>
+    <title>Significant Other Decision Maker</title>
   </head>
+
   <body>
     <div class="container">
       <div class="jumbotron">
-        UR A HAIRY WIZARD, POTTER
+        Here to help when your significant other can't decide what they want for dinner
       </div>
     </div>
 
@@ -19,32 +20,28 @@
       <div id="questions">
         <div class="row">
           <div class="col-md-4">
-              <h4>What's your favourite colour?</h4>
-              <select class="form-control" id="colour">
-                <option value="1">Red</option>
-                <option value="2">Green</option>
-                <option value="3">Yellow</option>
-                <option value="4">Blue</option>
+              <h4>Are you even hungry?</h4>
+              <select class="form-control" id="hunger">
+                <option value="1">Yes</option>
+                <option value="1">No</option>
+                <option value="1">I could eat</option>
               </select>
           </div>
 
           <div class="col-md-4">
-              <h4>What's your favourite animal?</h4>
-              <select class="form-control" id="animal">
-                <option value="1">Bald Eagle</option>
-                <option value="2">Hyena</option>
-                <option value="3">Nebelung Cat</option>
-                <option value="4">Shiba Inu</option>
+              <h4>What do you feel like?</h4>
+              <select class="form-control" id="idk">
+                <option value="1">I don't know what do you feel like?</option>
               </select>
           </div>
 
           <div class="col-md-4">
-            <h4>What's your favourite activity?</h4>
-            <select class="form-control" id="activity">
-              <option value="1">Parkour</option>
-              <option value="2">Tampering with airplane smoke detectors</option>
-              <option value="3">Reading in the park</option>
-              <option value="4">Researching in the library</option>
+            <h4>I could go for....</h4>
+            <select class="form-control" id="food">
+              <option value="1">Chinese food</option>
+              <option value="2">Mexican food</option>
+              <option value="3">Italian</option>
+              <option value="4">Anything except for what I had last night</option>
             </select>
           </div>
         </div>
@@ -52,35 +49,35 @@
     </div>
 
     <div class="container">
-      <div class="sorting">
-        <div class="sparkley">
-          <img id="hat" src="https://orig00.deviantart.net/3b0f/f/2011/235/6/b/the_sorting_hat_by_sahinduezguen-d47mwt5.png" alt="GET SORTED M-EFFER">
+      <div class="decision">
+        <div class="fork-and-knife">
+          <img id=fork-and-knife src="https://media.istockphoto.com/photos/fork-and-knife-picture-id462412295?k=6&m=462412295&s=612x612&w=0&h=oA1d0AXwheQIk9lf90FwXjeFW8RZjx3ORI96EzgvRl8=" alt="photo of a fork and knife">
         </div>
         <div id="text-overlay">
-          <h2>Click the sorting hat to get straight <strong>SORTED</strong></h2>
+          <h2>Click the fork + knife for your decision</h2>
         </div>
       </div>
     </div>
 
     <div class="container">
-      <div class="gryffindor">
-        <img src="https://media1.giphy.com/media/Tl2AK8HOHj7SU/giphy.gif" alt="GRAF GRAF BITCH">
-        <h1>YOU'RE IN GRYFFINDOR!</h1>
+      <div class="chinese-food">
+        <img src="https://lh4.ggpht.com/bOnz2O6B1TDRaBpZ236dGlN0mO208ukxeZez5jkaRdAcO0EkvYX0FhCZmnYcsrJupVblhs8aouF2g9E75O8KHQ" alt="a photo of chinese food">
+        <h1 id=lo-mein-noodles>LO MEIN NOODLES</h1>
       </div>
 
-      <div class="hufflepuff">
-        <img src="https://media.giphy.com/media/RSFYopVaolzFK/giphy.gif" alt="HUFFLE PUFF PUFF PASS">
-        <h1>"I'm Lactose Intolerant."</h1>
+      <div class="mexican-food">
+        <img src="https://i.pinimg.com/originals/ac/a5/ba/aca5ba9657004565852a614580851e92.jpg" alt="a photo of a chile verde burrito w/ rice and beans">
+        <h1 id=chile-verde-burrito>Chile verde burrito, híjole!</h1>
       </div>
 
-      <div class="slytherin">
-        <img src="https://media3.giphy.com/media/IX5Y1dsXzXnK8/giphy.gif" alt="Slyther on in">
-        <h1>Slyther on in to that house</h1>
+      <div class="italiano">
+        <img src="http://cdn-image.myrecipes.com/sites/default/files/styles/medium_2x/public/image/lighten-up-america/pasta-vodka-cream-sauce-ck-x.jpg?itok=QqqwVNR8" alt="a photo of a big ass bowl of pasta">
+        <h1 id=pasta>PASTA FTW!</h1>
       </div>
 
-      <div class="ravenclaw">
-        <img src="https://media2.giphy.com/media/qxBaWmlGMRIwU/giphy.gif" alt="">
-        <h1>...oh yeah, Ravenclaw.</h1>
+      <div class="chicken-fingers">
+        <img src="http://67.media.tumblr.com/tumblr_lvg5sdfkC01qha4u3o1_500.gif" alt="Chicken fingers are my family">
+        <h1 id=chicken>Chicken + fries, can't even deny that's what you want</h1>
       </div>
     </div>
   </body>
